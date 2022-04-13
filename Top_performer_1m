@@ -1,0 +1,18 @@
+import ccxt
+
+exchange = ccxt.binanceusdm()
+exchange.load_markets()
+
+def screener1():
+    for symbol in exchange.load_markets():
+        b = exchange.fetch_ohlcv(symbol, '1m')
+        c = b[-1][-2]
+        d = b[-2][-2]
+        diff_percent = round(((c - d)/c)*100, 2)
+
+        if diff_percent >= 1 or diff_percent <= -1:  #change percentage difference here
+            print(f'{symbol}: {diff_percent}')
+        else:
+            pass
+
+screener1()
