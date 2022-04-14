@@ -1,8 +1,6 @@
 import ccxt
 import pandas as pd
 import requests
-import schedule
-import time
 from ta.trend import EMAIndicator
 
 exchange = ccxt.binanceusdm()
