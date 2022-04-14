@@ -22,7 +22,7 @@ def screener3():
             'username': 'Young Ian',
             'content': message
         }
-            requests.post(WEBHOOK_1M, json=pay)
+            requests.post(WEBHOOK_30M, json=pay)
         else:
             pass
 screener3()           
