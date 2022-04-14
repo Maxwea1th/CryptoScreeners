@@ -24,7 +24,7 @@ def volatility_bot():
     print(f"This screening started at {current_time}")
 
     open('list_overbought.txt', 'w').close()
-    open('list_oversold.tct', 'w').close()
+    open('list_oversold.txt', 'w').close()
 
     for symbol in exchange.load_markets():
         bars = exchange.fetch_ohlcv(symbol, timeframe='30m', limit=365)
