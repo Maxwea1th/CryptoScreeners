@@ -61,84 +61,9 @@ def volatility_bot():
         else:
             pass
 
-    WEBHOOK_BUYSELL = 'https://discord.com/api/webhooks/961090854393634846/CIhNIeKs0hCm1PAer5-4Z0Ttm_UMVrk96E-qxzP1Jal7EnohexHTwiEBPoFg3M7xT3hb'
     WEBHOOK_VOLATILITY = 'https://discord.com/api/webhooks/954915040253849650/uDcwltzP-GPYX-9AhOSeWK85iJLgNyFu-eF5cQYy2CWVld3fygRRTQxGVPUg5s10hUKJ'
 
-    # if overbought_count >= 25:
-    #     message = ('SHORT opportunity incoming.')
-    #
-    #     payload = {
-    #         'username': 'Young Ian',
-    #         'content': message
-    #     }
-    #     requests.post(WEBHOOK_BUYSELL, json=payload)
-    #
-    # if overbought_count >= 50:
-    #     message = ('SHORT opportunity is here.')
-    #
-    #     payload = {
-    #         'username': 'Young Ian',
-    #         'content': message
-    #     }
-    #     requests.post(WEBHOOK_BUYSELL, json=payload)
-    #
-    # if overbought_count >= 75:
-    #     message = ('SHORT something!')
-    #
-    #     payload = {
-    #         'username': 'Young Ian',
-    #         'content': message
-    #     }
-    #     requests.post(WEBHOOK_BUYSELL, json=payload)
-    #
-    # if overbought_count >= 100:
-    #     message = ('SHORT ANYTHING!')
-    #
-    #     payload = {
-    #         'username': 'Young Ian',
-    #         'content': message
-    #     }
-    #     requests.post(WEBHOOK_BUYSELL, json=payload)
-    #
-    # if oversold_count >= 25:
-    #     message = ('LONG opportunity incoming.')
-    #
-    #     payload = {
-    #         'username': 'Young Ian',
-    #         'content': message
-    #     }
-    #     requests.post(WEBHOOK_BUYSELL, json=payload)
-    #
-    # if oversold_count >= 50:
-    #     message = ('LONG opportunity is here.')
-    #
-    #     payload = {
-    #         'username': 'Young Ian',
-    #         'content': message
-    #     }
-    #     requests.post(WEBHOOK_BUYSELL, json=payload)
-    #
-    # if oversold_count >= 75:
-    #     message = ('LONG something!')
-    #
-    #     payload = {
-    #         'username': 'Young Ian',
-    #         'content': message
-    #     }
-    #     requests.post(WEBHOOK_BUYSELL, json=payload)
-    #
-    # if oversold_count >= 100:
-    #     message = ('LONG ANYTHING!')
-    #
-    #     payload = {
-    #         'username': 'Young Ian',
-    #         'content': message
-    #     }
-    #     requests.post(WEBHOOK_BUYSELL, json=payload)
-    # else:
-    #     pass
-
-
+   
     message = (f'Overbought: {overbought_count}    Oversold: {oversold_count}')
     payload = {
         'username': 'Young Ian',
