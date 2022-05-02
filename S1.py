@@ -57,7 +57,7 @@ def s1():
         else:
             pass
 
-    WEBHOOK_S1 = 'https://discord.com/api/webhooks/964603153041465424/G3enyhD_6_eAuES855VHX6ixv8DoTk6jog8kqvUnuZD42eIMDBNITMKINE6hl-RcFBnC'
+    WEBHOOK_S1 = 'https://discord.com/api/webhooks/'
 
     message1 = f'Long opportunity: {long}'
     payload1 = {
