@@ -61,7 +61,7 @@ def volatility_bot():
         else:
             pass
 
-    WEBHOOK_VOLATILITY = 'https://discord.com/api/webhooks/954915040253849650/uDcwltzP-GPYX-9AhOSeWK85iJLgNyFu-eF5cQYy2CWVld3fygRRTQxGVPUg5s10hUKJ'
+    WEBHOOK_VOLATILITY = 'https://discord.com/api/webhooks/'
 
    
     message = (f'Overbought: {overbought_count}    Oversold: {oversold_count}')
