@@ -6,10 +6,10 @@ import time
 exchange = ccxt.binanceusdm()
 exchange.load_markets()
 
-WEBHOOK_1M = 'https://discord.com/api/webhooks/963913572226842725/T1Iubzybtro4DsCMZ_n6mbqFU9eePA86BMsJvktmNpH_qnLrAu9Uy9rWxMf9tvmmyvRM'
-WEBHOOK_5M = 'https://discord.com/api/webhooks/963916282288300103/iinG8bi3InisjZvMv79M9v-nNGXp7vcv3WztK6HCxw93S0z9-f2P3QN1Y8TSBID2McI8'
-WEBHOOK_30M = 'https://discord.com/api/webhooks/963916580440383548/1comhJ7fbpvV7g-MspH0u0arKhpUIoDN44aomxXYMECTdX9vIh2pzljmraG0eZRC3c19'
-WEBHOOK_4H = 'https://discord.com/api/webhooks/963916769502826567/k8GfcsBaX9aGpg4Q5JTUMQWXPTKn5P0DLN8qB_TF_Kln1AyGecNm7hCKWMBHKGbe5Q_D'
+WEBHOOK_1M = 'https://discord.com/api/webhooks/'
+WEBHOOK_5M = 'https://discord.com/api/webhooks/'
+WEBHOOK_30M = 'https://discord.com/api/webhooks/'
+WEBHOOK_4H = 'https://discord.com/api/webhooks/'
 
 def screener1():
     print('1min------------------------')
