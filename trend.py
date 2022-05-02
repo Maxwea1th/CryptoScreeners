@@ -35,7 +35,7 @@ def trend():
         else:
             pass
 
-    WEBHOOK_TREND = 'https://discord.com/api/webhooks/963993186995425291/5hH991fdf7e9O62AQXsia6yYBSH3DrA1s3rk1aIDK1EQScZ5Ze8XXeNbhqxP7N5O5OSE'
+    WEBHOOK_TREND = 'https://discord.com/api/webhooks'
 
     message = f'Uptrend: {uptrend} // Downtrend: {downtrend}'
 
